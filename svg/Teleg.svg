@@ -1,0 +1,21 @@
+<svg width="39.000000" height="39.000000" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip53_66">
+			<rect id="Телега" width="39.000000" height="39.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient id="paint_linear_53_68_0" x1="19.500000" y1="0.000000" x2="19.500000" y2="38.857727" gradientUnits="userSpaceOnUse">
+			<stop offset="0.994716" stop-color="#575972" stop-opacity="0.980392"/>
+			<stop offset="1.000000" stop-color="#22A6DC"/>
+		</linearGradient>
+	</defs>
+	<rect id="Телега" width="39.000000" height="39.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip53_66)">
+		<path id="Vector" d="M39 19.5C39 30.2695 30.2695 39 19.5 39C8.73045 39 0 30.2695 0 19.5C0 8.73047 8.73045 0 19.5 0C30.2695 0 39 8.73047 39 19.5Z" fill="url(#paint_linear_53_68_0)" fill-opacity="1.000000" fill-rule="evenodd"/>
+		<path id="Vector" d="M28.991 11.2201L25.51 28.7777C25.51 28.7777 25.0225 29.9965 23.6818 29.41L15.6457 23.2477L12.7207 21.8385L7.8 20.1855C7.8 20.1855 7.0459 19.9189 6.96973 19.3324C6.89355 18.746 7.82285 18.4336 7.82285 18.4336L27.3838 10.7631C27.3838 10.7555 28.991 10.0471 28.991 11.2201Z" fill="#60B2D3" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M15.0211 28.5797C15.0211 28.5797 14.785 28.5568 14.4955 27.6351C14.2061 26.7135 12.7207 21.8385 12.7207 21.8385L24.535 14.3356C24.535 14.3356 25.2205 13.9242 25.19 14.3356C25.19 14.3356 25.3119 14.4117 24.9463 14.7468C24.5807 15.0896 15.6685 23.1029 15.6685 23.1029L15.0211 28.5797Z" fill="#22A6DC" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M18.7231 25.609L15.5467 28.5111C15.5467 28.5111 15.2953 28.7015 15.0287 28.5797L15.6381 23.1943L18.7231 25.609Z" fill="#60B2D3" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
