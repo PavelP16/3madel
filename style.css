@@ -1,0 +1,142 @@
+body {
+  margin: 0 content;
+  font-family: Italiana;
+  font-family: Miniver;
+  font-family: Orienta;
+  width: 1180px;
+  height: 1510px;
+  background-color:rgb(158, 155, 171);
+}
+
+
+.header{
+ 
+  background-size: cover; /*Картинка будет растягиваться на весь монитор равномерно*/
+ 
+}
+
+.container {
+  margin: 0px 20px;
+ 
+}
+
+.heder-line{
+  position: relative;
+  margin-top: 50px;
+
+}
+
+
+.header-logo{ 
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 75px;
+  
+ 
+}
+
+.nav{
+  background: rgb(87, 89, 114);
+  width:1138px;
+  height: 120px;
+  border-radius: 25px;
+  margin-bottom: 58px;
+  
+}
+
+.nav-text{
+  font-size: 32px;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 37px;
+  padding-left: 258px;
+  padding-right: 155px;
+
+}
+
+.main-cart{
+  margin-top: 0px;
+}
+
+.cart{
+  background: rgb(87, 89, 114);
+  width:1138px;
+  height: 449px;
+  border-radius: 25px;
+  margin-top: 0px;
+  margin-bottom: 56px;
+}
+
+.histori-text{
+  margin-bottom: 29px;
+}
+
+.text{
+color: rgb(0, 0, 0);
+font-family: Miniver;
+font-size: 17px;
+font-weight: 400;
+text-align: center;
+
+}
+
+.cards1,
+.cards2{
+  display: flex;
+  margin-left: 51px;
+  margin-top: 49px;
+
+}
+
+
+
+
+.cart-img{
+  width: 324px;
+  height: 270px;
+  margin-right: 49px;
+  
+}
+
+.cart-text{
+  margin-top: -70px;
+  margin-left: 20px;
+  color: rgb(255, 249, 249);
+  font-family: Miniver;
+  font-size: 16px;
+  font-weight: 400;
+
+
+
+
+}
+
+.footer{
+  color: rgb(0, 0, 0);
+font-family: Orienta;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+.footer-email{
+  margin-top: 90px;
+  margin-bottom: 19px;
+  position: relative;
+}
+
+.logo-icon{
+  display: flex;
+  position: absolute;
+  margin-top: -50px;
+  
+  
+}
+
+.icon-footer{
+  margin-left: 5px;
+}
+
