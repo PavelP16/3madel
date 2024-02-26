@@ -3,9 +3,8 @@ body {
   font-family: Italiana;
   font-family: Miniver;
   font-family: Orienta;
-  width: 1180px;
-  height: 1510px;
-  background-color:rgb(158, 155, 171);
+   height: 1510px;
+  background-color:rgb(167, 166, 168);
 }
 
 
@@ -31,13 +30,24 @@ body {
   position: absolute;
   margin-top: -20px;
   margin-left: 75px;
+  width: 154px;
+  height:164px;
+
+  transition: transform .2s; /*Задает трансформацию текста */
   
  
 }
 
+.header-logo:hover{ 
+  transform: scale(1.2); /*Задает размер трансформации */
+ 
+}
+
+
+
+
 .nav{
-  background: rgb(87, 89, 114);
-  width:1138px;
+  background: #575972;
   height: 120px;
   border-radius: 25px;
   margin-bottom: 58px;
@@ -52,7 +62,36 @@ body {
   padding-top: 37px;
   padding-left: 258px;
   padding-right: 155px;
+  
+  
 
+}
+
+.nav-table{
+  text-decoration: none;
+  font-weight: 600;
+  color:#fff;
+  font-size: 32px;
+
+  transition: color 0.3s linear; /*Делает наведение текста более плавное*/
+
+}
+
+.nav-table:hover { /*Псевдоклас для работы с мышкой при наведении*/
+  color:rgba(0, 0, 0, 0.6);
+  text-shadow: 1px 2px 2px rgb(25, 25, 25), 0 0 0.2em #bcbcc3, 0 0 0.2em #b8c1c1; /*тень для текста*/
+  text-decoration:underline;  /*делаем линию под текстом*/
+  text-underline-offset: 10px /*делаем отступ лини*/
+
+}
+
+.nav-trans{ /*Класс для увеличения букв заголовка*/
+  display: inline-block;
+  transition: transform 0.3s ease 
+}
+
+.nav-trans:hover{
+  transform: scale(1.2); /*Задает размер трансформации */
 }
 
 .main-cart{
@@ -61,7 +100,7 @@ body {
 
 .cart{
   background: rgb(87, 89, 114);
-  width:1138px;
+  width:auto;
   height: 449px;
   border-radius: 25px;
   margin-top: 0px;
