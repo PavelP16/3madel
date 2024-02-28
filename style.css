@@ -40,7 +40,10 @@ body {
 
 .header-logo:hover{ 
   transform: scale(1.2); /*Задает размер трансформации */
- 
+  border-radius:30px;  
+  filter: drop-shadow(0 0 20px #FFFFFF);
+  
+  
 }
 
 
@@ -78,8 +81,8 @@ body {
 }
 
 .nav-table:hover { /*Псевдоклас для работы с мышкой при наведении*/
-  color:rgba(0, 0, 0, 0.6);
-  text-shadow: 1px 2px 2px rgb(25, 25, 25), 0 0 0.2em #bcbcc3, 0 0 0.2em #b8c1c1; /*тень для текста*/
+  color:#191919;
+  text-shadow: 1px 2px 2px #191919, 0 0 0.1em #bcbcc3, 0 0 0.1em #b8c1c1; /*тень для текста*/
   text-decoration:underline;  /*делаем линию под текстом*/
   text-underline-offset: 10px /*делаем отступ лини*/
 
@@ -114,36 +117,51 @@ body {
 .text{
 color: rgb(0, 0, 0);
 font-family: Miniver;
-font-size: 17px;
+font-size: 26px;
 font-weight: 400;
 text-align: center;
 
 }
 
-.cards1,
-.cards2{
-  display: flex;
-  margin-left: 51px;
-  margin-top: 49px;
+.card1{
+  margin-left:70px;
+  margin: 30px;
+  
 
+  transition: transform 0.3s ease 
 }
 
 
+.card1:hover{
 
+  transform: scale(1.2); /*Задает размер трансформации */
+  border-radius:21px;  
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.96);
 
-.cart-img{
-  width: 324px;
-  height: 270px;
-  margin-right: 49px;
+}
+
+.cards2{
+  display: flex;
+  flex-wrap:wrap;
+  flex-direction: row;
+  justify-content: center;
   
 }
 
+.cart-img{
+  width:424px ;
+  height:324px ;
+}
+
+
+
+
 .cart-text{
-  margin-top: -70px;
+  margin-top: -75px;
   margin-left: 20px;
   color: rgb(255, 249, 249);
   font-family: Miniver;
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 400;
 
 
@@ -152,7 +170,7 @@ text-align: center;
 }
 
 .footer{
-  color: rgb(0, 0, 0);
+color: rgb(0, 0, 0);
 font-family: Orienta;
 font-size: 17px;
 font-weight: 400;
